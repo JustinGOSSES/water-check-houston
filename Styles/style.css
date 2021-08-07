@@ -14,7 +14,14 @@
 body, #credit { font-family: 'Roboto,300 light', sans-serif; }
 #header { font-family: 'Roboto,300 light', sans-serif;}
 
-body {margin: 0px;}
+body {margin: 0px; 
+  display: inline-block;
+  /* background-color: #1F3856;*/
+  
+ /*  min-width: 200px;
+   max-width: 300x;*/
+   /* width: 600px; */
+  }
 /* Basics
 ======================================================================*/
 a { color: #f85204; text-decoration: none; }
