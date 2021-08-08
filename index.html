@@ -73,34 +73,36 @@
 
    
 
-    <div class="moveBox" style="background-color:white;">
+    <div class="moveBox" >
       <a href="https://waterdata.usgs.gov/monitoring-location/08074000/#parameterCode=00065&period=P30D&compare=true">
-        <div class="imgSquare" style="overflow: hidden;">
-          <div id="observablehq-chart_1-9267c513"></div>
-          <script type="module">
-          import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
-          import define from "https://api.observablehq.com/@justingosses/multiple-river-gage-plots-single-function.js?v=3";
-          new Runtime().module(define, name => {
-            if (name === "chart_1") return new Inspector(document.querySelector("#observablehq-chart_1-9267c513"));
-          });
-          </script>
-
-          <div id="observablehq-01f1c4b3" style="width:600px;">
-            <div class="observablehq-chart_2" style="width:600px;"></div>
-            <p>Blue is gage height & red is threshold for low level paddlers. <a href="https://observablehq.com/@justingosses/multiple-river-gage-plots-single-function">LINK TO ORIGINAL</a></p>
-
-          </div>
-          <script type="module">
+        <div style="background-color:white;">
+          <div class="imgSquare" style="overflow: hidden;">
+            <div id="observablehq-chart_1-9267c513"></div>
+            <script type="module">
             import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
             import define from "https://api.observablehq.com/@justingosses/multiple-river-gage-plots-single-function.js?v=3";
-            (new Runtime).module(define, name => {
-              if (name === "chart_2") return Inspector.into("#observablehq-01f1c4b3 .observablehq-chart_2")();
+            new Runtime().module(define, name => {
+              if (name === "chart_1") return new Inspector(document.querySelector("#observablehq-chart_1-9267c513"));
             });
-          </script>
+            </script>
 
+            <div id="observablehq-01f1c4b3" style="width:600px;">
+              <div class="observablehq-chart_2" style="width:600px;"></div>
+              <p>Blue is gage height & red is threshold for low level paddlers. <a href="https://observablehq.com/@justingosses/multiple-river-gage-plots-single-function">LINK TO ORIGINAL</a></p>
+
+            </div>
+            <script type="module">
+              import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+              import define from "https://api.observablehq.com/@justingosses/multiple-river-gage-plots-single-function.js?v=3";
+              (new Runtime).module(define, name => {
+                if (name === "chart_2") return Inspector.into("#observablehq-01f1c4b3 .observablehq-chart_2")();
+              });
+            </script>
+
+          </div>
         </div>
-        <div class="labelHolder">
-          <h2 class="name">Buffalo Bayou at Houston</h2>
+        <div class="labelHolder" style="background-color:black">
+          <h2 class="name">Key River Levels in past 2 weeks</h2>
         </div>
       </a>
     </div>
@@ -112,7 +114,7 @@
               <iframe src="https://waterdata.usgs.gov/monitoring-location/08074000/#parameterCode=00065&period=P30D&compare=true" width="100%" height="850" style="margin-top: -350px;overflow:hidden;"></iframe>
           </div>
           <div class="labelHolder">
-            <h2 class="name">Buffalo Bayou at Houston</h2>
+            <h2 class="name">Buffalo Bayou at Houston USGS page</h2>
           </div>
         </a>
       </div>
@@ -174,6 +176,21 @@
           <div class="labelHolder">
             <!-- <h2 class="category">Name:</h2> -->
             <h2 class="name">Galveston Surf: Surfline</h2>
+          </div>
+
+        </a>
+      </div>
+
+
+      <div class="moveBox ">
+        <a href="https://www.galveston.com/webcams/surfcam/">
+          <div class="imgSquare" style="overflow: hidden;"> 
+              <iframe src="https://www.galvestontxbeachrental.com/galveston-live-beach-surf-webcam/" width="100%" height="1220" style="margin-top: -720px;overflow:hidden;"></iframe>
+              <!-- <img src="images/sed_model_doodle.png" alt="screenshot of augmented reality business card"/> -->
+          </div>
+          <div class="labelHolder">
+            <!-- <h2 class="category">Name:</h2> -->
+            <h2 class="name">Galveston Surf: Webcam</h2>
           </div>
 
         </a>
