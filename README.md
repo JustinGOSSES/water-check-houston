@@ -8,4 +8,4 @@ There's a lot more that could be added, but these are the ones I tend to check t
 This was quickly stood up, so a bit rough around the edges still.
 
 ## Live Link
-https://justingosses.github.io/water_check_houston/
+https://justingosses.github.io/water-check-houston/
